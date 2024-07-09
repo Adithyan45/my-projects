@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10in" height="7.5in" class="slides-canvas" viewBox="0 0 720 540">
+  <defs>
+    <symbol id="page0-pic1" viewBox="0 0 191 96" preserveAspectRatio="none">
+      <image width="191" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL8AAABgCAYAAABMgqP8AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAcpJREFUeJzt17FKA0EYhdGbGFFRLETw/V/PSlExaDQWu7HQFWw2Eu85MM1kir/4drKbAAAA/9nih71FkuW4ps7AIdkmeR/Xdlzfwl4kOU5yluQiyWmS1f5mhFm8JnlO8pBknWSTTIe9yhD+TZLLJCd7GhDmsk5yl+Hm3+SH+Hc3/3mSqyTXGf4F4JA9ZWj7PsnjbnP5Z+PAHxM/tcRPLfFTS/zUEj+1xE8t8VNL/NQSP7XETy3xU0v81BI/tcRPLfFTS/zUEj+1xE8t8VNL/NQSP7XETy3xU0v81BI/tcRPLfFTS/zUEj+1xE8t8VNL/NQSP7XETy3xU0v81BI/tcRPLfFTS/zUEj+1xE8t8VNL/NQSP7XETy3xU0v81BI/tcRPLfFTS/zUEj+1xE8t8VNL/NQSP7XETy3xU0v81BI/tcRPLfFTS/zUEj+1xE8t8VNL/NQSP7XETy3xU0v81BI/tcRPLfFTS/zUEj+1xE8t8VNL/NRa/eLMdvYpYF6TDX+Nf5tkk2Sd5GH8/WTeuWB2z0kek7wkedttTt38m/HgbYYH4Hgf08GMXpI8jesz/sXEwWWSowzRH8V3AYfvPcOl/pohfq/yAECTD94lKXN/RhlaAAAAAElFTkSuQmCC" />
+    </symbol>
+    <symbol id="page0-pic2" viewBox="0 0 182 96" preserveAspectRatio="none">
+      <image width="182" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAABgCAYAAACwl4g2AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdBJREFUeJzt1kFLHUYYRuGjMaQlJYtQyP//e1m1mFQxVrO4101VaG008vI8MJuZWXyLwzAFAAD8SCeP7J1Up8f10B14LW6rm+O6Pa570Z5Ub6tfq9+qX6qzl5sR/rNv1UV1Xl1W1/VwtGcdov5UfajevdCA8BSX1R8dXuzrHgn77sV+X32sfu/wesNr9bXDl/nP6svd5ulPGweekbCZJGwmCZtJwmaSsJkkbCYJm0nCZpKwmSRsJgmbScJmkrCZJGwmCZtJwmaSsJkkbCYJm0nCZpKwmSRsJgmbScJmkrCZJGwmCZtJwmaSsJkkbCYJm0nCZpKwmSRsJgmbScJmkrCZJGwmCZtJwmaSsJkkbCYJm0nCZpKwmSRsJgmbScJmkrCZJGwmCZtJwmaSsJkkbCYJm0nCZpKwmSRsJgmbScJmkrCZJGwmCZtJwmaSsJkkbCYJm0nCZpKwmSRsJgmbScJmkrCZJGwmCZtJwmaSsJkkbCYJm0nCZtLZv7hz++xTwP9zr9F/hn1bXVeX1fnx/N3zzwVPdlF9qa6qm7vNh17s6+PFzx3ifvsS08ETXVV/VV87tFvVyQMXT6s3HYJ+k384r9tNh6C/VX/n6wwA/HzfAXhMKXVrqxZkAAAAAElFTkSuQmCC" />
+    </symbol>
+    <symbol id="page0-pic3" viewBox="0 0 188 96" preserveAspectRatio="none">
+      <image width="188" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAABgCAYAAACntRj/AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdlJREFUeJzt1sFKI0EYhdGbGHHEwYUI8/6v58LFGMdRYvcsurORBFwk0cw9Bwo6XRX4Fx9FJwAAwDlZ7Hm3SLKc164z8J2N8xrmNW43Psa8SHKZ5DrJzyQ/kqxOMyMczJjkLcmfJOskr0nek90xrzLF/ivJbZKr08wIBzMkeUnyOD9vsif47Q1/k+QuyX2m2x7OyZDkKdNN/zvJ83Zj+VUTwVcQPFUETxXBU0XwVBE8VQRPFcFTRfBUETxVBE8VwVNF8FQRPFUETxXBU0XwVBE8VQRPFcFTRfBUETxVBE8VwVNF8FQRPFUETxXBU0XwVBE8VQRPFcFTRfBUETxVBE8VwVNF8FQRPFUETxXBU0XwVBE8VQRPFcFTRfBUETxVBE8VwVNF8FQRPFUETxXBU0XwVBE8VQRPFcFTRfBUETxVBE8VwVNF8FQRPFUETxXBU0XwVBE8VQRPFcFTRfBUETxVBE8VwVNF8FQRPFUETxXBU0XwVBE8VQRPFcFTRfBUWX3izHj0KeCw9jb7MfgxySbJ3yRP8/7V8eaCoxiSPGdq+G3+nWT3Db9Jsk7yMP/h8gQDwiENmUJfJ3lJ8r7dWOw4vExykSn0i/jO5/yMmSLfzGuIT3MA4P/xD8yLMGasgsmoAAAAAElFTkSuQmCC" />
+    </symbol>
+    <symbol id="page0-pic4" viewBox="0 0 203 96" preserveAspectRatio="none">
+      <image width="203" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAABgCAYAAACzIIYeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAddJREFUeJzt18uKE2EUhdGdG1EUB02D7/96Dtsmxs7NQZVBukvYE5O0WQt+AskfOIP6OEkCAABwu2Z/eW+WZD6eqTvwvzolOY7nNJ4kb0OYJVkl+Zjkc5IPSZaXmRFuwiHJNslzkk2SXcZgpkJYZgjla5IvSdaXmRFuwkuSpwyLYz+eyVh+b5ZPSR6SPGbYMnAvthka2GTYLudfX/NrTQTvjVigJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigdKyuHP651PAO/A6llOSfZJtku/j5+tLDwVX9DPDs7/N0MJ5WUxtln2S5yTfxi+tLjAg3Ip9kh9JnpK85I9YZhOX50kWGSJZxP8a7ssxySHJbnw9XnccAIC79wvXMyuBiGnp3gAAAABJRU5ErkJggg==" />
+    </symbol>
+    <symbol id="page0-pic5" viewBox="0 0 203 96" preserveAspectRatio="none">
+      <image width="203" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMsAAABgCAYAAACzIIYeAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAddJREFUeJzt18uKE2EUhdGdG1EUB02D7/96Dtsmxs7NQZVBukvYE5O0WQt+AskfOIP6OEkCAABwu2Z/eW+WZD6eqTvwvzolOY7nNJ4kb0OYJVkl+Zjkc5IPSZaXmRFuwiHJNslzkk2SXcZgpkJYZgjla5IvSdaXmRFuwkuSpwyLYz+eyVh+b5ZPSR6SPGbYMnAvthka2GTYLudfX/NrTQTvjVigJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigZJYoCQWKIkFSmKBkligJBYoiQVKYoGSWKAkFiiJBUpigdKyuHP651PAO/A6llOSfZJtku/j5+tLDwVX9DPDs7/N0MJ5WUxtln2S5yTfxi+tLjAg3Ip9kh9JnpK85I9YZhOX50kWGSJZxP8a7ssxySHJbnw9XnccAIC79wvXMyuBiGnp3gAAAABJRU5ErkJggg==" />
+    </symbol>
+    <symbol id="page0-pic6" viewBox="0 0 208 96" preserveAspectRatio="none">
+      <image width="208" height="96" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANAAAABgCAYAAABsbvwBAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAdFJREFUeJzt101LnlcURuHlR7ChoYNS6P//ex01aKNU49vBq1ASA4WbGo3XBc/kOWewJ4vNKQAAgLfj5Bv/TqrTh++pO/DWHKr7f33V13GcVO+q99WH6qfq/JkGhJfstrquLqub6q6ejuO8Yzy/V79UF880ILxk19WfHbfPbd8I6HED/Vz9Wv3WcRvBW3fVsY+P1dnjz9PvNg78AAQEAwHBQEAwEBAMBAQDAcFAQDAQEAwEBAMBwUBAMBAQDAQEAwHBQEAwEBAMBAQDAcFAQDAQEAwEBAMBwUBAMBAQDAQEAwHBQEAwEBAMBAQDAcFAQDAQEAwEBAMBwUBAMBAQDAQEAwHBQEAwEBAMBAQDAcFAQDAQEAwEBAMBwUBAMBAQDAQEAwHBQEAwEBAMBAQDAcFAQDAQEAwEBAMBwUBAMBAQDAQEAwHBQEAwEBAMBAQDAcFAQDAQEAwEBAMBwUBAMBAQDAQEAwHBQEAwEBAMBAQDAcFAQDAQEAzO/8Odw/8+BbxSXwZ0qO6qm+ry4fziuYeCF+ZQXVdX1d/V/ePBUxvo7uHiHx0jevcMA8JLdqhuq7+qT9Xnx4OTJy6fVmcdwznLOwnquHXuOob0OU8bAIDX6h/CLyiB//E0EgAAAABJRU5ErkJggg==" />
+    </symbol>
+    <linearGradient id="lg_f5ffe6_NEe4fdc2_dafda7_90_89_a8c05" x1="0" y1="90" x2="0" y2="174" spreadMethod="reflect" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFE6" />
+      <stop offset="0.65" stop-color="#E4FDC2" />
+      <stop offset="1" stop-color="#DAFDA7" />
+    </linearGradient>
+    <linearGradient id="lg_f5ffe6_NEe4fdc2_dafda7_90_100_a8c05" x1="0" y1="168" x2="0" y2="252" spreadMethod="reflect" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFE6" />
+      <stop offset="0.65" stop-color="#E4FDC2" />
+      <stop offset="1" stop-color="#DAFDA7" />
+    </linearGradient>
+    <linearGradient id="lg_f5ffe6_NEe4fdc2_dafda7_90_3c_a8c05" x1="0" y1="39" x2="0" y2="123" spreadMethod="reflect" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFE6" />
+      <stop offset="0.65" stop-color="#E4FDC2" />
+      <stop offset="1" stop-color="#DAFDA7" />
+    </linearGradient>
+    <linearGradient id="lg_f5ffe6_NEe4fdc2_dafda7_90_9_a8c05" x1="0" y1="5" x2="0" y2="89" spreadMethod="reflect" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFE6" />
+      <stop offset="0.65" stop-color="#E4FDC2" />
+      <stop offset="1" stop-color="#DAFDA7" />
+    </linearGradient>
+    <linearGradient id="lg_f5ffe6_NEe4fdc2_dafda7_90_3b_a8c05" x1="0" y1="38" x2="0" y2="122" spreadMethod="reflect" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFE6" />
+      <stop offset="0.65" stop-color="#E4FDC2" />
+      <stop offset="1" stop-color="#DAFDA7" />
+    </linearGradient>
+    <linearGradient id="lg_f5ffe6_NEe4fdc2_dafda7_90_86_a8c05" x1="0" y1="88" x2="0" y2="172" spreadMethod="reflect" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5FFE6" />
+      <stop offset="0.65" stop-color="#E4FDC2" />
+      <stop offset="1" stop-color="#DAFDA7" />
+    </linearGradient>
+  </defs>
+  <g text-rendering="geometricPrecision" transform="scale(1, 1)">
+    <rect x="0" y="0" width="720" height="540" fill="#002060" fill-opacity="0.74" />
+    <g transform="matrix(1, 0, 0, 1, 119.69826, 31.723387)"><text font-family="Calibri" font-style="normal" font-weight="bold" font-stretch="normal" font-size="27pt" fill="#FF0000" x="0" y="33.696"><tspan x="0" y="33.696" xml:space="preserve">FEATURES</tspan><tspan xml:space="preserve" x="148.39648" y="33.696">   </tspan><tspan x="172.77148" y="33.696" xml:space="preserve">OF</tspan><tspan xml:space="preserve" x="213.64648" y="33.696">   </tspan><tspan x="238.02148" y="33.696" xml:space="preserve">KEYLOGGER</tspan></text></g>
+    <use x="67" y="85" width="191" height="96" preserveAspectRatio="none" xlink:href="#page0-pic1" />
+    <path fill="url(#lg_f5ffe6_NEe4fdc2_dafda7_90_89_a8c05)" d="M73.12 90L253.12 90 253.12 174.37 73.12 174.37z" />
+    <path stroke-width="0.75" stroke="#98B954" fill="none" d="M73.12 90L253.12 90 253.12 174.37 73.12 174.37z" />
+    <g transform="matrix(1, 0, 0, 1, 80.32299, 93.59875)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="42.201027" y="55.435795"><tspan x="45.306496" y="33.835796">Key stroke</tspan><tspan xml:space="preserve" x="120.29478" y="33.835796"> </tspan><tspan x="42.201027" y="55.435795">monitoring</tspan></text></g>
+    <use x="64" y="333" width="182" height="96" preserveAspectRatio="none" xlink:href="#page0-pic2" />
+    <path fill="url(#lg_f5ffe6_NEe4fdc2_dafda7_90_100_a8c05)" d="M70.83 337.5L241.87 337.5 241.87 421.88 70.83 421.88z" />
+    <path stroke-width="0.75" stroke="#98B954" fill="none" d="M70.83 337.5L241.87 337.5 241.87 421.88 70.83 421.88z" />
+    <g transform="matrix(1, 0, 0, 1, 78.03401, 341.10046)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="12.445084" y="44.635796"><tspan x="12.445084" y="44.635796">Program captured</tspan></text></g>
+    <use x="64" y="203" width="188" height="96" preserveAspectRatio="none" xlink:href="#page0-pic3" />
+    <path fill="url(#lg_f5ffe6_NEe4fdc2_dafda7_90_3c_a8c05)" d="M70.83 208.12L247.5 208.12 247.5 292.5 70.83 292.5z" />
+    <path stroke-width="0.75" stroke="#98B954" fill="none" d="M70.83 208.12L247.5 208.12 247.5 292.5 70.83 292.5z" />
+    <g transform="matrix(1, 0, 0, 1, 78.03401, 211.72458)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="1.615509" y="44.635796"><tspan x="1.615509" y="44.635796">Screen shot capturing</tspan></text></g>
+    <use x="365" y="339" width="203" height="96" preserveAspectRatio="none" xlink:href="#page0-pic4" />
+    <path fill="url(#lg_f5ffe6_NEe4fdc2_dafda7_90_9_a8c05)" d="M371.34 343.71L562.59 343.71 562.59 428.08 371.34 428.08z" />
+    <path stroke-width="0.75" stroke="#98B954" fill="none" d="M371.34 343.71L562.59 343.71 562.59 428.08 371.34 428.08z" />
+    <g transform="matrix(1, 0, 0, 1, 378.53986, 347.309)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="41.535538" y="44.635796"><tspan x="41.535538" y="44.635796">Startup Alert</tspan></text></g>
+    <use x="359" y="203" width="203" height="96" preserveAspectRatio="none" xlink:href="#page0-pic5" />
+    <path fill="url(#lg_f5ffe6_NEe4fdc2_dafda7_90_3b_a8c05)" d="M365.67 207.63L556.92 207.63 556.92 292.01 365.67 292.01z" />
+    <path stroke-width="0.75" stroke="#98B954" fill="none" d="M365.67 207.63L556.92 207.63 556.92 292.01 365.67 292.01z" />
+    <g transform="matrix(1, 0, 0, 1, 372.86993, 211.23087)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="26.00087" y="44.635796"><tspan x="26.00087" y="44.635796">Windows startup</tspan></text></g>
+    <use x="359" y="84" width="208" height="96" preserveAspectRatio="none" xlink:href="#page0-pic6" />
+    <path fill="url(#lg_f5ffe6_NEe4fdc2_dafda7_90_86_a8c05)" d="M365.67 88.56L562.55 88.56 562.55 172.94 365.67 172.94z" />
+    <path stroke-width="0.75" stroke="#98B954" fill="none" d="M365.67 88.56L562.55 88.56 562.55 172.94 365.67 172.94z" />
+    <g transform="matrix(1, 0, 0, 1, 372.86993, 92.16253)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="33.38614" y="44.635796"><tspan x="33.38614" y="44.635796">Web site visited</tspan></text></g>
+  </g>
+</svg>

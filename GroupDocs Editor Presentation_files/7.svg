@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10in" height="7.5in" class="slides-canvas" viewBox="0 0 720 540">
+  <defs>
+    <marker id="ah1" markerUnits="userSpaceOnUse" markerWidth="36" markerHeight="21" viewBox="-18 -10.5 36 21" orient="auto">
+      <path d="M-9 5.25L0 0-9-5.25" fill="none" stroke="#FFFF00" stroke-width="3" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <g text-rendering="geometricPrecision" transform="scale(1, 1)">
+    <rect x="0" y="0" width="720" height="540" fill="#FFFFFF" />
+    <path fill="#FFFF00" d="M213.75 255.94C213.75 210.89 264.12 174.37 326.25 174.37L326.25 174.37C388.38 174.37 438.75 210.89 438.75 255.94L438.75 255.94C438.75 300.98 388.38 337.5 326.25 337.5L326.25 337.5C264.12 337.5 213.75 300.98 213.75 255.94z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M213.75 255.94C213.75 210.89 264.12 174.37 326.25 174.37L326.25 174.37C388.38 174.37 438.75 210.89 438.75 255.94L438.75 255.94C438.75 300.98 388.38 337.5 326.25 337.5L326.25 337.5C264.12 337.5 213.75 300.98 213.75 255.94z" />
+    <g transform="matrix(1, 0, 0, 1, 253.89967, 201.86359)"><text font-family="Calibri" font-style="normal" font-weight="bold" font-stretch="normal" font-size="18pt" fill="#000000" x="0.822731" y="62.137802"><tspan x="0.822731" y="62.137802">Program files :</tspan></text></g>
+    <path fill="#92D050" d="M39.37 45L421.88 45 421.88 90 39.37 90z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M39.37 45L421.88 45 421.88 90 39.37 90z" />
+    <g transform="matrix(1, 0, 0, 1, 46.572754, 48.59842)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#FFFFFF" x="105.74664" y="24.94816"><tspan x="105.74664" y="24.94816">execute_keylogger.py</tspan></text></g>
+    <path fill="#002060" d="M315 410.63L697.5 410.63 697.5 455.63 315 455.63z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M315 410.63L697.5 410.63 697.5 455.63 315 455.63z" />
+    <g transform="matrix(1, 0, 0, 1, 322.1997, 414.22598)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#FFFFFF" x="137.96149" y="24.94816"><tspan x="137.96149" y="24.94816">Keylogger.py</tspan></text></g>
+    <path marker-end="url(#ah1)" stroke-width="3" stroke="#FFFF00" fill="none" d="M427.5 309.38L523.94 384.38 525.12 385.3" />
+    <g transform="matrix(0, -1, -1, -0, 359.9981, 359.9981)">
+      <path marker-end="url(#ah1)" stroke-width="3" stroke="#FFFF00" fill="none" d="M174.37 112.5L243.18 181.3 244.24 182.37" />
+    </g>
+  </g>
+</svg>

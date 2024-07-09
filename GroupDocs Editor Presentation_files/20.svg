@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10in" height="7.5in" class="slides-canvas" viewBox="0 0 720 540">
+  <g text-rendering="geometricPrecision" transform="scale(1, 1)">
+    <rect x="0" y="0" width="720" height="540" fill="#002060" fill-opacity="0.74" />
+    <path fill="#C3D69B" d="M0 0L101.25 0 101.25 540 0 540z" />
+    <path stroke-width="2" stroke="#8C3836" fill="none" d="M0 0L101.25 0 101.25 540 0 540z" />
+    <g transform="matrix(1, 0, 0, 1, 112.05354, 24.123463)"><text font-family="Arial" font-style="normal" font-weight="bold" font-stretch="normal" font-size="30pt" fill="#FFC000" x="0" y="38.895103"><tspan x="0" y="38.895103">REFERENCE :</tspan></text></g>
+    <g transform="matrix(1, 0, 0, 1, 7.2, 14.329685)"><text font-family="Arial" font-style="normal" font-weight="normal" font-stretch="normal" font-size="4.5pt" fill="#000000" x="0" y="5.904581"><tspan xml:space="preserve" x="0" y="5.904581"> </tspan></text></g>
+    <path fill="#FFC000" d="M150.21 128.25L564.12 128.25 564.12 334.24 150.21 334.24z" />
+    <g transform="matrix(1, 0, 0, 1, 157.4129, 131.85199)">
+      <path fill="#0000FF" d="M6.5 20.39L56.5 20.39 56.5 21.83 6.5 21.83z" />
+      <path fill="#0000FF" d="M56.5 20.51L161.25 20.51 161.25 22.11 56.5 22.11z" />
+      <path fill="#0000FF" d="M161.25 20.39L166.25 20.39 166.25 21.83 161.25 21.83z" />
+      <path fill="#0000FF" d="M6.5 63.59L56.5 63.59 56.5 65.03 6.5 65.03z" />
+      <path fill="#0000FF" d="M56.5 63.71L212.83 63.71 212.83 65.31 56.5 65.31z" />
+      <path fill="#0000FF" d="M212.83 63.59L217.83 63.59 217.83 65.03 212.83 65.03z" />
+      <path fill="#0000FF" d="M6.5 106.79L56.5 106.79 56.5 108.23 6.5 108.23z" />
+      <path fill="#0000FF" d="M56.5 106.91L251.89 106.91 251.89 108.51 56.5 108.51z" />
+      <path fill="#0000FF" d="M251.89 106.79L256.89 106.79 256.89 108.23 251.89 108.23z" />
+      <path fill="#0000FF" d="M6.5 149.99L56.5 149.99 56.5 151.43 6.5 151.43z" />
+      <path fill="#0000FF" d="M56.5 150.11L279.2 150.11 279.2 151.71 56.5 151.71z" />
+      <path fill="#0000FF" d="M279.2 149.99L284.2 149.99 284.2 151.43 279.2 151.43z" />
+      <path fill="#0000FF" d="M6.5 193.19L56.5 193.19 56.5 194.63 6.5 194.63z" />
+      <path fill="#0000FF" d="M56.5 193.31L287.08 193.31 287.08 194.91 56.5 194.91z" />
+      <path fill="#0000FF" d="M287.08 193.19L292.08 193.19 292.08 194.63 287.08 194.63z" /><text font-family="Times New Roman" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.875pt" fill="#EBF1DE" x="6.5" y="192.11218"><tspan x="0" y="19.312168">•</tspan><a xlink:href="https://medium.com/"><tspan x="6.5" y="19.312168" font-size="13.5pt" fill="#0000FF">https://</tspan></a><a xlink:href="https://medium.com/"><tspan x="56.5" y="19.312168" textLength="104.75" font-size="15pt" fill="#0000FF">medium.com</tspan></a><a xlink:href="https://medium.com/"><tspan x="161.25" y="19.312168" textLength="5" font-size="13.5pt" fill="#0000FF">/</tspan></a><tspan xml:space="preserve" x="166.25" y="19.312168" textLength="4.5" font-size="13.5pt"> </tspan><tspan x="0" y="62.512173">•</tspan><a xlink:href="https://www.slideshare.net/"><tspan x="6.5" y="62.512173" font-size="13.5pt" fill="#0000FF">https://</tspan></a><a xlink:href="https://www.slideshare.net/"><tspan x="56.5" y="62.512173" textLength="156.32617" font-size="15pt" fill="#0000FF">www.slideshare.net</tspan></a><a xlink:href="https://www.slideshare.net/"><tspan x="212.82617" y="62.512173" textLength="5" font-size="13.5pt" fill="#0000FF">/</tspan></a><tspan x="0" y="105.71217">•</tspan><a xlink:href="https://en.m.wikipedia.org/wiki/"><tspan x="6.5" y="105.71217" font-size="13.5pt" fill="#0000FF">https://</tspan></a><a xlink:href="https://en.m.wikipedia.org/wiki/"><tspan x="56.5" y="105.71217" textLength="195.38867" font-size="15pt" fill="#0000FF">en.m.wikipedia.org/wiki</tspan></a><a xlink:href="https://en.m.wikipedia.org/wiki/"><tspan x="251.88867" y="105.71217" textLength="5" font-size="13.5pt" fill="#0000FF">/</tspan></a><tspan x="0" y="148.91217">•</tspan><a xlink:href="https://security.stackexchange.com/"><tspan x="6.5" y="148.91217" font-size="13.5pt" fill="#0000FF">https://</tspan></a><a xlink:href="https://security.stackexchange.com/"><tspan x="56.5" y="148.91217" textLength="222.70117" font-size="15pt" fill="#0000FF">security.stackexchange.com</tspan></a><a xlink:href="https://security.stackexchange.com/"><tspan x="279.20117" y="148.91217" textLength="5" font-size="13.5pt" fill="#0000FF">/</tspan></a><tspan x="0" y="192.11218">•</tspan><a xlink:href="https://www.ionos.com/digitalguide/"><tspan x="6.5" y="192.11218" font-size="13.5pt" fill="#0000FF">https://</tspan></a><a xlink:href="https://www.ionos.com/digitalguide/"><tspan x="56.5" y="192.11218" textLength="230.57617" font-size="15pt" fill="#0000FF">www.ionos.com/digitalguide</tspan></a><a xlink:href="https://www.ionos.com/digitalguide/"><tspan x="287.07617" y="192.11218" textLength="5" font-size="13.5pt" fill="#0000FF">/</tspan></a></text></g>
+  </g>
+</svg>

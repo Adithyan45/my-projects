@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10in" height="7.5in" class="slides-canvas" viewBox="0 0 720 540">
+  <defs>
+    <marker id="ah1" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="7" viewBox="-6 -3.5 12 7" orient="auto">
+      <path d="M-3 1.75L0 0-3-1.75" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" />
+    </marker>
+    <marker id="ah2" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="7" viewBox="-6 -3.5 12 7" orient="auto">
+      <path d="M-3 1.75L0 0-3-1.75" fill="none" stroke="#4A7EBB" stroke-width="1" stroke-linecap="round" />
+    </marker>
+  </defs>
+  <g text-rendering="geometricPrecision" transform="scale(1, 1)">
+    <rect x="0" y="0" width="720" height="540" fill="#EEECE1" fill-opacity="0.52" />
+    <path fill="#FFFFFF" d="M53.82 14.85L649.17 14.85 649.17 513.81 53.82 513.81z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M53.82 14.85L649.17 14.85 649.17 513.81 53.82 513.81z" />
+    <g transform="matrix(1, 0, 0, 1, 61.02426, 18.453552)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="281.44595" y="251.92453"><tspan x="281.44595" y="251.92453">Ke</tspan></text></g>
+    <path fill="#FFFFFF" d="M87.84 92.34C87.84 80.86 97.15 71.55 108.63 71.55L191.79 71.55 191.79 71.55C203.27 71.55 212.58 80.86 212.58 92.34L212.58 277.56 212.58 277.56C212.58 289.04 203.27 298.35 191.79 298.35L108.63 298.35 108.63 298.35C97.15 298.35 87.84 289.04 87.84 277.56z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M87.84 92.34C87.84 80.86 97.15 71.55 108.63 71.55L191.79 71.55 191.79 71.55C203.27 71.55 212.58 80.86 212.58 92.34L212.58 277.56 212.58 277.56C212.58 289.04 203.27 298.35 191.79 298.35L108.63 298.35 108.63 298.35C97.15 298.35 87.84 289.04 87.84 277.56z" />
+    <path fill="#FFFFFF" d="M456.39 81C456.39 69.52 465.7 60.21 477.18 60.21L560.34 60.21 560.34 60.21C571.82 60.21 581.13 69.52 581.13 81L581.13 266.22 581.13 266.22C581.13 277.7 571.82 287.01 560.34 287.01L477.18 287.01 477.18 287.01C465.7 287.01 456.39 277.7 456.39 266.22z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M456.39 81C456.39 69.52 465.7 60.21 477.18 60.21L560.34 60.21 560.34 60.21C571.82 60.21 581.13 69.52 581.13 81L581.13 266.22 581.13 266.22C581.13 277.7 571.82 287.01 560.34 287.01L477.18 287.01 477.18 287.01C465.7 287.01 456.39 277.7 456.39 266.22z" />
+    <g transform="matrix(1, 0, 0, 1, 469.67792, 69.90212)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="18.636066" y="120.557205"><tspan x="19.43343" y="98.95721">Internet</tspan><tspan xml:space="preserve" x="78.726395" y="98.95721"> </tspan><tspan x="18.636066" y="120.557205">Explorer</tspan></text></g>
+    <path fill="#FFFFFF" d="M274.95 92.34C274.95 80.86 284.26 71.55 295.74 71.55L378.9 71.55 378.9 71.55C390.38 71.55 399.69 80.86 399.69 92.34L399.69 277.56 399.69 277.56C399.69 289.04 390.38 298.35 378.9 298.35L295.74 298.35 295.74 298.35C284.26 298.35 274.95 289.04 274.95 277.56z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M274.95 92.34C274.95 80.86 284.26 71.55 295.74 71.55L378.9 71.55 378.9 71.55C390.38 71.55 399.69 80.86 399.69 92.34L399.69 277.56 399.69 277.56C399.69 289.04 390.38 298.35 378.9 298.35L295.74 298.35 295.74 298.35C284.26 298.35 274.95 289.04 274.95 277.56z" />
+    <g transform="matrix(1, 0, 0, 1, 288.24042, 81.24197)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="7.738117" y="109.75721"><tspan x="7.738117" y="109.75721">Application</tspan></text></g>
+    <path fill="#FFFFFF" d="M257.94 389.07C257.94 379.67 265.56 372.06 274.95 372.06L422.37 372.06 422.37 372.06C431.76 372.06 439.38 379.67 439.38 389.07L439.38 457.11 439.38 457.11C439.38 466.5 431.76 474.12 422.37 474.12L274.95 474.12 274.95 474.12C265.56 474.12 257.94 466.5 257.94 457.11z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M257.94 389.07C257.94 379.67 265.56 372.06 274.95 372.06L422.37 372.06 422.37 372.06C431.76 372.06 439.38 379.67 439.38 389.07L439.38 457.11 439.38 457.11C439.38 466.5 431.76 474.12 422.37 474.12L274.95 474.12 274.95 474.12C265.56 474.12 257.94 466.5 257.94 457.11z" />
+    <g transform="matrix(1, 0, 0, 1, 270.12347, 380.6407)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="29.161652" y="48.495205"><tspan x="29.161652" y="48.495205">Main Module</tspan></text></g>
+    <path fill="#FFFFFF" d="M104.85 230.31L201.24 230.31 201.24 270 104.85 270z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M104.85 230.31L201.24 230.31 201.24 270 104.85 270z" />
+    <g transform="matrix(1, 0, 0, 1, 112.05354, 233.91055)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#FFFFFF" x="3.195507" y="33.092728"><tspan x="16.181835" y="11.492727">H</tspan><tspan x="27.431835" y="11.492727" textLength="38.375" fill="#000000">Hook</tspan><tspan xml:space="preserve" x="65.80684" y="11.492727" textLength="4.125"> </tspan><tspan x="3.195507" y="33.092728" fill="#000000">procedure</tspan></text></g>
+    <path fill="#FFFFFF" d="M280.62 235.98L377.01 235.98 377.01 275.67 280.62 275.67z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M280.62 235.98L377.01 235.98 377.01 275.67 280.62 275.67z" />
+    <g transform="matrix(1, 0, 0, 1, 287.8211, 239.58047)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="3.195507" y="33.092728"><tspan x="21.806835" y="11.492727">Hook</tspan><tspan xml:space="preserve" x="60.181835" y="11.492727"> </tspan><tspan x="3.195507" y="33.092728">procedure</tspan></text></g>
+    <path fill="#FFFFFF" d="M473.4 224.64L569.79 224.64 569.79 264.33 473.4 264.33z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M473.4 224.64L569.79 224.64 569.79 264.33 473.4 264.33z" />
+    <g transform="matrix(1, 0, 0, 1, 480.59845, 228.24063)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="3.195507" y="33.092728"><tspan x="21.806835" y="11.492727">Hook</tspan><tspan xml:space="preserve" x="60.181835" y="11.492727"> </tspan><tspan x="3.195507" y="33.092728">procedure</tspan></text></g>
+    <path fill="#FFFFFF" d="M473.4 82.89L569.79 82.89 569.79 122.58 473.4 122.58z" />
+    <path stroke-width="2" stroke="#385D8A" fill="none" d="M473.4 82.89L569.79 82.89 569.79 122.58 473.4 122.58z" />
+    <g transform="matrix(1, 0, 0, 1, 480.59845, 86.4926)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="12.994335" y="33.092728"><tspan x="27.869335" y="11.492727">FTP</tspan><tspan xml:space="preserve" x="54.119335" y="11.492727"> </tspan><tspan x="12.994335" y="33.092728">module</tspan></text></g>
+    <g transform="matrix(0, 1, 1, 0, -40.408203, 40.408203)">
+      <path marker-end="url(#ah1)" stroke-width="0.75" stroke="#000000" fill="none" d="M223.92 275.67L277.79 275.67 277.79 360.72 329.15 360.72 329.52 360.72" />
+    </g>
+    <path marker-end="url(#ah1)" stroke-width="0.75" stroke="#000000" fill="none" d="M70.83 423.09L255.44 423.09 255.82 423.09" />
+    <path stroke-width="0.75" stroke="#000000" fill="none" d="M70.83 252.99L70.83 423.09" />
+    <path stroke-width="0.75" stroke="#000000" fill="none" d="M70.83 252.99L99.18 252.99" />
+    <path stroke-width="0.75" stroke="#000000" fill="none" d="M235.26 264.33L286.29 264.33" />
+    <g transform="matrix(-1, 0, 0, 1, 895.7676, 0)">
+      <path marker-end="url(#ah1)" stroke-width="0.75" stroke="#000000" fill="none" d="M439.38 417.42L453.89 417.42 454.26 417.42" />
+    </g>
+    <g transform="matrix(-1, 0, 0, -1, 907.1074, 670.4082)">
+      <path stroke-width="0.75" stroke="#000000" fill="none" d="M450.72 252.99L456.39 417.42" />
+    </g>
+    <path stroke-width="0.75" stroke="#4A7EBB" fill="none" d="M450.72 252.99L473.4 252.99" />
+    <path stroke-width="0.75" stroke="#000000" fill="none" d="M439.38 457.11L598.14 457.11" />
+    <g transform="matrix(1, 0, 0, -1, 0, 562.6797)">
+      <path stroke-width="0.75" stroke="#000000" fill="none" d="M598.14 105.57L603.81 457.11" />
+    </g>
+    <g transform="matrix(-1, 0, 0, -1, 1173.5938, 208.3096)">
+      <path marker-end="url(#ah2)" stroke-width="0.75" stroke="#4A7EBB" fill="none" d="M569.79 102.74L601.18 105.35 601.55 105.38" />
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 100.713715, 137.5219)"><text font-family="Calibri" font-style="normal" font-weight="normal" font-stretch="normal" font-size="13.5pt" fill="#000000" x="0" y="16.848"><tspan x="0" y="16.848">Application</tspan></text></g>
+    <g transform="matrix(1, 0, 0, 1, 123.39337, 29.793385)"><text font-family="Calibri" font-style="normal" font-weight="bold" font-stretch="normal" font-size="18pt" fill="#FF0000" x="0" y="22.464"><tspan x="0" y="22.464">Key Logger Architecture</tspan></text></g>
+  </g>
+</svg>

@@ -1,0 +1,253 @@
+// feedback form
+var gdFbk = {
+    ver: '3.5',
+    templatesUrl: '',
+    apiUrl: '',
+    lang: '',
+    appName: '',
+    theme:null,
+    nextSendLimitSeconds: 20,
+    isLoaded: false,
+    settings: null,
+    storage: null,
+    rateField$: null,
+    txtField$: null,
+    popup$: null,
+    placeholder$: null,
+
+    getPopupTemplate: function () {
+        if (gdFbk.theme && gdFbk.theme != '')  {
+            return '/feedback-' + gdFbk.theme +'.html?v=' + gdFbk.ver;
+        } else {
+            return '/feedback.html?v=' + gdFbk.ver;
+        }
+    },
+    getBodyTemplate: function () { return '/feedback-body.html?v=' + gdFbk.ver; },
+
+    // get settings from api and add popup + button to body
+    init: function (options) {
+        if (!options.lang || !options.apiUrl || !options.templatesUrl || !options.appName)
+        { throw new Error('Feedback - wrong init options passed'); }
+
+        gdFbk.lang = options.lang;
+        gdFbk.apiUrl = options.apiUrl;
+        gdFbk.templatesUrl = options.templatesUrl;
+        gdFbk.appName = options.appName;
+        gdFbk.theme = options.theme;
+
+        gdFbk.loadStorage();
+
+        gdFbk.onDomReady(function()  {
+            gdFbk.getSettings().then(function(resp)  {
+                resp.json().then(function(settings)  {
+                    gdFbk.settings = settings;
+                    gdFbk.loadPopup();
+                })
+               
+            });
+        })
+    },
+    loadStorage: function () {
+        let storageData = localStorage.getItem('fbk_' + gdFbk.appName);
+        if (!storageData) {
+            storageData = '{}';
+            localStorage.setItem('fbk_' + gdFbk.appName, storageData);
+        }
+        gdFbk.storage = JSON.parse(storageData);
+    },
+    saveStorage: function () {
+        localStorage.setItem('fbk_' + gdFbk.appName, JSON.stringify(gdFbk.storage));
+    },
+
+    open: function () {
+        gdFbk.popup$.classList.add('gd-fbk-popup--visible');
+
+        if (!gdFbk.isLoaded) {
+            gdFbk.loadBody();
+        }
+        
+    },
+
+    close: function () {
+        gdFbk.popup$.classList.remove('gd-fbk-popup--visible');
+    },
+
+    loadPopup: function () {
+        gdFbk.getPopup().then(function(resp)  {
+            resp.text().then(function(html)  {
+                const localizedHtml = gdFbk.localize(html, gdFbk.settings['localization_strings']);
+                const rootEl = gdFbk.getRootEl();
+                rootEl.insertAdjacentHTML('beforeend', localizedHtml);
+                gdFbk.initPopupHandlers();
+
+            })
+        });
+
+    },
+    
+    loadBody: function () {
+        gdFbk.getBody().then(function(resp)  {
+            resp.text().then(function(html)  {
+                gdFbk.placeholder$.innerHTML = gdFbk.localize(html, gdFbk.settings['localization_strings']);
+                gdFbk.initBodyHandlers();
+                gdFbk.isLoaded = true;
+
+                if (gdFbk.isSended()) {
+                    gdFbk.showStep('thank');
+                }
+
+            })
+        });
+            
+    },
+    getRootEl: function () {
+        var el = document.querySelector('.gd-root');
+        return el ? el : document.body;
+
+    },
+
+    isSended: function () {
+        if (!gdFbk.storage) 
+        return false;
+
+        const lastSendDate = gdFbk.storage['lastSend'];
+        if (!lastSendDate)
+            return false;
+
+        return Date.now() - lastSendDate < 1000 *  gdFbk.nextSendLimitSeconds;
+
+    },
+
+    localize: function (value, textsObj) {
+        let html = value;
+
+        for (const key in textsObj) {
+            html = html.replace('#'+key+'#', textsObj[key])
+        }
+        return html;
+    },
+
+    initPopupHandlers: function () {
+        gdFbk.popup$ = document.querySelector('#gd_fbk_popup');
+        gdFbk.placeholder$ = document.querySelector('#gd_fbk_placeholder');
+        document.querySelector('#gd_fbk_popup_btn').addEventListener('click', gdFbk.close);
+        document.querySelector('#gd_fbk_popup_back').addEventListener('click', gdFbk.close);
+        document.querySelector('#gd_fbk_btn').addEventListener('click', gdFbk.open);
+    },
+
+    initBodyHandlers: function () {
+        document.querySelectorAll('.js-fbk-rates>li').forEach(function(rate) {
+            rate.addEventListener('click',function(){
+                gdFbk.rateClicked(rate.dataset['rate']);
+               });
+        });
+
+         document.querySelector('#gd_fbk_send').addEventListener('click',function(){gdFbk.showStep('thank');});
+         document.querySelector('#gd_fbk_skip').addEventListener('click',gdFbk.sendClicked);
+         document.querySelector('#gd_fbk_send').addEventListener('click',gdFbk.sendClicked);
+         document.querySelector('#gd_fbk_close').addEventListener('click',gdFbk.close);
+
+         gdFbk.rateField$ = document.querySelector('#gd_fbk_rate_val');
+         gdFbk.txtField$  = document.querySelector('#gd_fbk_txt');
+    },
+   
+    getSettings: function () {
+        return fetch(gdFbk.apiUrl + '/settings?lang=' + gdFbk.lang);
+    },
+ 
+    getBody: function () {
+        return fetch(gdFbk.templatesUrl + gdFbk.getBodyTemplate());
+    },
+
+    getPopup: function () {
+        return fetch(gdFbk.templatesUrl +  gdFbk.getPopupTemplate());
+    },
+
+    rateClicked: function (rateName) {
+        gdFbk.rateField$.value = rateName;
+        if (rateName === 'good') {
+            gdFbk.sendData();
+            gdFbk.showStep('thank');
+        } else {
+            gdFbk.showStep('form');
+            gdFbk.txtField$.focus();
+        }
+
+    },
+    sendClicked: function () {
+        gdFbk.sendData();
+        gdFbk.showStep('thank');
+    },
+
+    showStep: function (name) {
+        document.querySelectorAll('.js-fbk-step').forEach(function(step) { step.classList.add('gd-fbk-hidden') });
+        document.querySelector('#gd_fbk_' + name).classList.remove('gd-fbk-hidden');
+    },
+
+    sendData: function () {
+
+        const url = window.location.href;
+        const text = gdFbk.txtField$.value;
+        const rate = gdFbk.rateField$.value;
+        const appName = gdFbk.appName;
+        const data = { "rate": rate, "url": url, "text": text, "app_name": appName };
+      
+        fetch(gdFbk.apiUrl, {
+            method: 'post',
+            headers: {
+                'Accept': 'application/json, text/plain',
+                'Content-Type': 'application/json;charset=UTF-8'
+            },
+            body: JSON.stringify(data),
+
+            }).then(function(resp) {
+                gdFbk.clearFields();
+                gdFbk.storage['lastSend'] = Date.now();
+                gdFbk.saveStorage();
+
+            });
+
+    },
+    clearFields: function() {
+
+        gdFbk.rateField$.value = '';
+        gdFbk.txtField$.value = '';
+    },
+
+    onDomReady: function (clbk) {
+        if (document.readyState !== 'loading') {
+            setTimeout(clbk, 100);
+        } else {
+            document.addEventListener('DOMContentLoaded', clbk);
+        }
+    }
+
+
+
+};
+
+
+
+/* Initialization */
+const gdFeedbackStart = (function () {
+
+    if (!window.gdFbk || !window.FeedbackScriptOptions) {
+        console.log('Feedback not initialized');
+        return;
+    }
+
+    gdFbk.init({
+        apiUrl: FeedbackScriptOptions.ApiUrl,
+        templatesUrl: FeedbackScriptOptions.TemplatesUrl,
+        lang: FeedbackScriptOptions.Lang,
+        appName: FeedbackScriptOptions.AppName,
+        theme: FeedbackScriptOptions.Theme
+    });
+
+
+})();
+
+
+
+
+

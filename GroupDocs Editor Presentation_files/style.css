@@ -1,0 +1,111 @@
+﻿.slide { position: relative; width: 720pt; height: 540pt; margin: 10pt auto 0 auto; border: 1pt solid rgb(211, 211, 211); box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.10196); }
+.masterBackground { }
+.masterShapes { position: absolute; z-index: 0; width: 720pt; height: 540pt; }
+[data-shape-placeholder="0;0;0;0"] { position: absolute; background: none; z-index: 0; left: 36pt; top: 21.625038pt; height: 90pt; width: 648pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para001_effective { text-align: center; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text001 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 44pt; color: rgb(0, 0, 0); }
+.div001 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+[data-shape-placeholder="0;0;1;1"] { position: absolute; background: none; z-index: 1; left: 36pt; top: 125.999985pt; height: 356.37503pt; width: 648pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: flex-start; }
+ul.list001>li.notRoot::before { content: "•"; margin-right: 10pt; font-family: Arial; font-size: 32pt; }
+ul.list001>li.notRoot:empty::before { color: transparent; }
+ul.list001>li { font-size: 32pt; }
+.list001 { margin: 0; padding: 0; font-size: 32pt; list-style-type: none; }
+.item001 { text-align: left; font-size: 32pt; margin-top: 6.4pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 27pt; text-indent: -27pt; line-height: 1; }
+.text002 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 32pt; color: rgb(0, 0, 0); }
+ul.list002>li.notRoot::before { content: "–"; margin-right: 10pt; font-family: Arial; font-size: 28pt; }
+ul.list002>li.notRoot:empty::before { color: transparent; }
+ul.list002>li { font-size: 28pt; }
+.list002 { margin: 0; padding: 0; margin-left: -22.5pt; font-size: 28pt; list-style-type: none; }
+.item002 { text-align: left; font-size: 28pt; margin-top: 5.6pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 58.5pt; text-indent: -22.5pt; line-height: 1; }
+.text003 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 28pt; color: rgb(0, 0, 0); }
+ul.list003>li.notRoot::before { content: "•"; margin-right: 10pt; font-family: Arial; font-size: 24pt; }
+ul.list003>li.notRoot:empty::before { color: transparent; }
+ul.list003>li { font-size: 24pt; }
+.list003 { margin: 0; padding: 0; margin-left: -18pt; font-size: 24pt; list-style-type: none; }
+.item003 { text-align: left; font-size: 24pt; margin-top: 4.8pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 90pt; text-indent: -18pt; line-height: 1; }
+.text004 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 24pt; color: rgb(0, 0, 0); }
+ul.list004>li.notRoot::before { content: "–"; margin-right: 10pt; font-family: Arial; font-size: 20pt; }
+ul.list004>li.notRoot:empty::before { color: transparent; }
+ul.list004>li { font-size: 20pt; }
+.list004 { margin: 0; padding: 0; margin-left: -18pt; font-size: 20pt; list-style-type: none; }
+.item004 { text-align: left; font-size: 20pt; margin-top: 4pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 126pt; text-indent: -18pt; line-height: 1; }
+.text005 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(0, 0, 0); }
+ul.list005>li.notRoot::before { content: "»"; margin-right: 10pt; font-family: Arial; font-size: 20pt; }
+ul.list005>li.notRoot:empty::before { color: transparent; }
+ul.list005>li { font-size: 20pt; }
+.list005 { margin: 0; padding: 0; margin-left: -18pt; font-size: 20pt; list-style-type: none; }
+.item005 { text-align: left; font-size: 20pt; margin-top: 4pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 162pt; text-indent: -18pt; line-height: 1; }
+.text006 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(0, 0, 0); }
+.div002 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+[data-shape-placeholder="0;1;4;2"] { position: absolute; background: none; z-index: 2; left: 36pt; top: 500.5pt; height: 28.75pt; width: 168pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para002_effective { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text007 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 12pt; color: rgb(137, 137, 137); }
+.div003 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+[data-shape-placeholder="0;2;6;3"] { position: absolute; background: none; z-index: 3; left: 246pt; top: 500.5pt; height: 28.75pt; width: 228pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para003_effective { text-align: center; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.div004 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+[data-shape-placeholder="0;2;5;4"] { position: absolute; background: none; z-index: 4; left: 516pt; top: 500.5pt; height: 28.75pt; width: 168pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para004_effective { text-align: right; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text008 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 12pt; color: rgb(137, 137, 137); }
+.div005 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+.layoutBackground { }
+.layoutShapes { position: absolute; z-index: 1; width: 720pt; height: 540pt; }
+[data-shape-placeholder="0;1;4;10"] { position: absolute; background: none; z-index: 0; left: 36pt; top: 500.5pt; height: 28.75pt; width: 168pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para005_effective { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text009 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 12pt; color: rgb(137, 137, 137); }
+.div006 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+[data-shape-placeholder="0;2;6;11"] { position: absolute; background: none; z-index: 1; left: 246pt; top: 500.5pt; height: 28.75pt; width: 228pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para006_effective { text-align: center; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.div007 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+[data-shape-placeholder="0;2;5;12"] { position: absolute; background: none; z-index: 2; left: 516pt; top: 500.5pt; height: 28.75pt; width: 168pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para007_effective { text-align: right; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text010 { font-family: Calibri; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 12pt; color: rgb(137, 137, 137); }
+.div008 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+.contentBackground { background-image: none; background-position: 0% 0%; background-size: auto; background-repeat: repeat; background-color: rgba(0, 32, 96, 0.74118); }
+.contentShapes { position: absolute; z-index: 2; width: 720pt; height: 540pt; }
+.div009 { position: absolute; background-image: none; background-position: 0% 0%; background-size: auto; background-repeat: repeat; background-color: rgb(195, 214, 155); z-index: 0; left: 0pt; top: 0pt; height: 540pt; width: 101.24819pt; border: 2pt solid rgb(140, 56, 54); justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para008_effective { text-align: center; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.div010 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+.div011 { position: absolute; background: none; z-index: 1; left: 104.853546pt; top: 20.523462pt; height: 55.739056pt; width: 289.166pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: flex-start; }
+.para009_effective { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text011 { font-family: 'Arial Rounded MT Bold'; letter-spacing: 0pt; font-weight: bold; font-style: normal; font-size: 40pt; color: rgb(255, 192, 0); }
+.div012 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+.div013 { position: absolute; background: none; z-index: 2; left: 0pt; top: 10.729685pt; height: 14.54063pt; width: 16.181496pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: center; }
+.para010_effective { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text012 { font-family: Arial; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 6pt; color: rgb(0, 0, 0); }
+.div014 { word-wrap: normal; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
+.div015 { position: absolute; background-image: none; background-position: 0% 0%; background-size: auto; background-repeat: repeat; background-color: rgb(255, 192, 0); z-index: 3; left: 150.2129pt; top: 128.25198pt; height: 205.9922pt; width: 413.90427pt; justify-content: center; transform: rotate(0deg); display: flex; align-items: flex-start; }
+ul.list006>li.notRoot::before { content: "•"; margin-right: 10pt; font-family: Arial; font-size: 18pt; }
+ul.list006>li.notRoot:empty::before { color: transparent; }
+ul.list006>li { font-size: 18pt; }
+.list006 { margin: 0; padding: 0; font-size: 18pt; list-style-type: none; }
+.item006 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text013 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.text014 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(235, 241, 222); }
+.text015 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.text016 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.item007 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item008 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item009 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text017 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.text018 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(235, 241, 222); }
+.text019 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.item010 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item011 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item012 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text020 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.text021 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(235, 241, 222); }
+.text022 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.item013 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item014 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item015 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text023 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.text024 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(235, 241, 222); }
+.text025 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.item016 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item017 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.item018 { text-align: left; margin-top: 0pt; margin-bottom: 0pt; margin-right: 0pt; margin-left: 0pt; text-indent: 0pt; line-height: 1; }
+.text026 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.text027 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 20pt; color: rgb(235, 241, 222); }
+.text028 { font-family: 'Times New Roman'; letter-spacing: 0pt; font-weight: normal; font-style: normal; font-size: 18pt; color: rgb(235, 241, 222); }
+.div016 { word-wrap: break-word; margin: 3.6pt 7.2pt 3.6pt 7.2pt; width: 100%; }
